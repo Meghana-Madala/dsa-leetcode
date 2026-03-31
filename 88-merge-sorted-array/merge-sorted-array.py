@@ -23,8 +23,10 @@ class Solution:
                     j-=1
                     endIndex -=1
 
-            if j >= 0:
-                nums1[:endIndex+1] = nums2[:j+1]
+            while j >= 0:
+                nums1[endIndex] = nums2[j]
+                j-=1
+                endIndex-=1
             
 
 
