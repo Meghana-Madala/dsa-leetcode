@@ -19,5 +19,5 @@ class Solution:
             else:
                 nums[i+1] = nums[j]
                 i+=1
-                j+=1
+                # j+=1
         return i+1
