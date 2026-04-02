@@ -1,6 +1,6 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        # n = len(nums)
+        # n = len(nums)   Storing a value also increase runtime I guess its because need to   retrieve and verify it matches or not
         i = 0
         j = i+1
         # while(i<n and j < n):
