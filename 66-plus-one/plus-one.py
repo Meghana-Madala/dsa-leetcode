@@ -15,9 +15,9 @@ class Solution:
                 digits[i]+=1
                 return digits
             digits[i] = 0
-        digits = [0]*(len(digits)+1)
-        digits[0] = 1
-        return digits
+        # digits = [0]*(len(digits)+1)
+        # digits[0] = 1
+        return [1] + digits
         
 
         
