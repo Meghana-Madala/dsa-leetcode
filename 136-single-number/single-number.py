@@ -4,5 +4,3 @@ class Solution:
         for i in nums:
             single ^= i
         return single
-
-        
