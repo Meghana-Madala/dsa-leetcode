@@ -5,7 +5,4 @@ class Solution:
             single ^= i
         return single
 
-        # single = nums[0]
-        # for i in range(1, len(nums)):
-        #     single ^= nums[i]
-        # return single
+        
