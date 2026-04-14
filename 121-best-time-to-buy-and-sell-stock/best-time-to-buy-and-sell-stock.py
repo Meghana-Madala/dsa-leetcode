@@ -3,7 +3,7 @@ class Solution:
         max_profit = 0
         buy = 0
         sell = 1
-        while(buy < sell and sell < len(prices)):
+        while(sell < len(prices)):
             if(prices[sell] < prices[buy]):
                 buy = sell
             else:
