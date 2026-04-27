@@ -16,3 +16,5 @@ class Solution:
             return left
         else: 
             return left+1
+
+        
