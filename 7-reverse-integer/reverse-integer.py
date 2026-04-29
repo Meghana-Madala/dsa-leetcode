@@ -6,4 +6,6 @@ class Solution:
         while(x>0):
             rev_Int = (rev_Int*10) + (x%10)
             x//=10
-        return rev_Int*sign if -2147483648 <= rev_Int <= 2147483647 else 0
+            if not(-2147483648 <= rev_Int <= 2147483647):
+                return 0
+        return rev_Int*sign 
