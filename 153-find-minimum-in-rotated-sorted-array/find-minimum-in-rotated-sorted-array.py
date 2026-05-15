@@ -4,8 +4,8 @@ class Solution:
         j = len(nums)-1
         if len(nums) == 1:
             return nums[0]
-        elif len(nums)==2:
-            return nums[i] if(nums[i]<nums[j]) else nums[j]
+        # elif len(nums)==2:
+        #     return nums[i] if(nums[i]<nums[j]) else nums[j]
         if(nums[i] < nums[j]):
             return nums[i]
         while(i<j):
